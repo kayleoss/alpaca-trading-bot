@@ -3,7 +3,7 @@ This is a trading script that uses alpaca trading to initiate paper trades.
 
 WHAT IT DOES: 
     Gets a list of qualified stocks and submits an order to buy 100 quantities of each, at 10% under market price. 
-    Wait 5 seconds after each other to ensure it has enough time to complete the order.
+    Wait 3 seconds after each other to ensure it has enough time to complete the order.
 
 WHICH SYMBOLS QUALIFY:
     The script searches yahoo finance trending symbols and determines if the stock is qualified based on two factors:
