@@ -13,6 +13,10 @@ WHICH SYMBOLS QUALIFY:
 WHERE IT GETS DATA FROM:
     Symbol data is retreived from yahoo finance.
     Stock data is received as real-time data from IEX (the Investors Exchange)
+    
+TO USE THIS SCRIPT:
+    You have to sign up for alpaca free trading account: https://alpaca.markets/docs/trading-on-alpaca/market-data/
+    And get an API key and secret from the paper trading tab which you can save to your environment variables as ALPACA_KEY and ALPACA_SEC
 
 Made by Katie (Duo) Liu
 Github: https://github.com/kayleoss
